@@ -35,7 +35,7 @@ end
 
 def kesha_maker(arr)
   new_arr = []
-  arr.each { |i| }
+  arr.each { |i| new_arr << }
 end
 
 def find_a(arr)
