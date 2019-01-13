@@ -55,5 +55,5 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.each_with_index.collect {|e, i| "#{e}s" if i != 1 e}
+  arr.each_with_index.collect {|e, i| i == 1 ? e : "#{e}s"}
 end
