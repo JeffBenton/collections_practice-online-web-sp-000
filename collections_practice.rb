@@ -28,7 +28,7 @@ def reverse_array(arr)
   i = 0
   while i < arr.length / 2
     swap_elements_from_to(arr, i, arr.length - 1 - i)
-    i++
+    i += 1
   end
   arr
 end
