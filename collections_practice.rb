@@ -35,7 +35,7 @@ end
 
 def kesha_maker(arr)
   new_arr = []
-  arr.each do |i|
+  arr.each do |x|
     x[2] = "$"
     new_arr << x
   end
